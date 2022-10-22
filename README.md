@@ -67,6 +67,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [@not-found.com](https://{vilasgannaram.github.io/404-not-found-page/})
-- GitHub [@Vilas Gannaram](https://{github.com/vilasgannaram})
-- Twitter [@Vilas Gannaram](https://{twitter.com/VilasGannaram})
+- Website [@not-found.com](https://vilasgannaram.github.io/404-not-found-page/)
+- GitHub [@Vilas Gannaram](https://github.com/vilasgannaram)
+- Twitter [@Vilas Gannaram](https://twitter.com/VilasGannaram)

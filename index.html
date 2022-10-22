@@ -27,75 +27,74 @@
         theme: {
           extend: {
             screens: {
-              sm: { max: '390px' },
-              lg: '1440px',
+              sm: '640px',
+              md: '768px',
+              lg: '1024px',
+              xl: '1440px',
             },
             fontFamily: {
-              inconsolata: 'Inconsolata',
               spaceMono: 'Space Mono',
+              inconsolata: 'Inconsolata',
               montserrat: 'Montserrat',
             },
             colors: {
-              mediumGray: '#333333',
-              lightGray: '#4f4f4f',
-              superLightGray: '#bdbdbd',
+              primaryGray: '#333333',
+              secondaryGray: '#4f4f4f',
+              tertiartGray: '#bdbdbd',
             },
           },
         },
       };
     </script>
-    <title>Devchallenges</title>
+    <title>404 NOT FOUND</title>
   </head>
 
   <body>
-    <!-- Container -->
-    <div class="flex flex-col w-full rounded-lg">
-      <!-- Header -->
-      <header class="mt-5 ml-6 lg:mt-10 lg:ml-[77px]">
+    <!-- TOPMOST CONTAINER -->
+    <div class="flex flex-col mx-auto w-[90%] sm:w-[80%]">
+      <!-- HEADER && NAV -->
+      <header class="mt-5 lg:mt-10">
         <h1
-          class="font-bold font-inconsolata text-[24px] leading-[25px] text-mediumGray tracking-tighter uppercase"
+          class="font-inconsolata font-bold leading-6 text-[24px] text-primaryGray tracking-tighter uppercase"
         >
           404 not found
         </h1>
       </header>
-      <!-- Main Content -->
-      <main
-        class="mt-16 lg:mx-auto lg:w-4/5 flex flex-col lg:flex-row lg:mt-[120px] lg:justify-evenly"
-      >
-        <!-- Image Container -->
-        <div class="w-[286px] h-[238px] sm:mx-auto lg:w-[540px] lg:h-[447px]">
-          <img class="w-[100%] h-auto" src="Scarecrow.png" alt="Scarecrow" />
+      <!-- MAIN CONTAINER -->
+      <main class="mx-auto mt-16 sm:mt-20 lg:flex justify-between">
+        <!-- IMAGE CONTAINER -->
+        <div class="mx-auto w-[80%] sm:w-[90%] lg:w-[539px] lg:mr-20 lg:mx-0">
+          <img class="w-[100%] h-auto" src="/Scarecrow.png" alt="scarecrow" />
         </div>
-        <!-- Text Container -->
-        <div class="sm:mt-[77px] sm:ml-6 sm:mr-1">
-          <div class="lg:w-[490px]">
-            <h1
-              class="font-spaceMono font-bold text-[48px] leading-[71px] tracking-tighter text-mediumGray"
-            >
-              I have bad news for you
-            </h1>
-          </div>
-          <div class="mt-7 lg:mt-9 lg:w-[386px]">
-            <p
-              class="font-normal font-spaceMono text-xl lg:text-2xl tracking-tighter text-lightGray"
-            >
-              The page you are looking for might be removed or is temporarily
-              unavailable
-            </p>
-          </div>
-          <div class="mt-[64px]">
+        <!-- TEXT CONTAINER -->
+        <div class="mt-[77px] lg:max-w-lg">
+          <h1
+            class="font-spaceMono font-bold leading-[71px] text-[48px] text-primaryGray tracking-tighter lg:text-6xl"
+          >
+            I have bad news for you
+          </h1>
+          <p
+            class="mt-7 font-spaceMono font-normal leading-[27px] text-[18px] text-secondaryGray tracking-tighter lg:max-w-[318px]"
+          >
+            The page you are looking for might be removed or is temporarily
+            unavailable
+          </p>
+          <!-- BUTTON CONTAINER -->
+          <div class="mt-16 bg-primaryGray max-w-max">
             <button
-              class="bg-mediumGray text-[#fff] text-xs font-spaceMono font-bold px-[43px] py-6 uppercase tracking-tighter"
+              class="font-spaceMono font-bold leading-[21px] px-11 py-6 text-[14px] text-[white] tracking-tight uppercase"
             >
               Back to homepage
             </button>
           </div>
         </div>
       </main>
-      <!-- Footer -->
-      <footer class="mt-[114px] lg:[308px] text-center">
-        <p class="font-montserrat font-medium text-xs text-superLightGray p-2">
-          created by username - vilasgannaram.io
+      <!-- FOOTER -->
+      <footer class="mt-28 p-2 text-center">
+        <p
+          class="font-montserrat font-medium leading-[17px] text-[14px] text-tertiartGray"
+        >
+          created by vilasgannaram - devChallenges.io
         </p>
       </footer>
     </div>
